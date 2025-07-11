@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CharH-Messages</title>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    
+    <h1>Send new message:</h1>
+
+    <form action="/" method="POST">
+        <input type="text" name="message">
+        <input type="submit" value="Send">
+    </form>
+
+    <h2>Message History</h2>
+
+    <ul>
+  {% for message in messages %}
+    <li>
+        {{message[0]}} <br>
+    </li>
+
+  {% endfor %}
+    </ul>
+  </body>
+</html>

@@ -1,0 +1,10 @@
+{
+  "name": "charh-message-web",
+  "domain": "charh-messages.xf.mkrs.link",
+  "port": 5000,
+  "env": {
+    "APP_ENV": "PRODUCTION",
+    "POSTGRES_HOSTNAME": "char-message-database",
+    "POSTGRES_PASSWORD": "charh-postgres-password"
+  }
+}

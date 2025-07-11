@@ -1,0 +1,10 @@
+{
+  "name": "charh-message-database",
+  "domain": false,
+  "hostname": "char-message-database",
+  "image": "postgres:12",
+  "env": {
+    "POSTGRES_PASSWORD": "charh-postgres-password"
+  },
+  "volumes": ["charh_message_database_volume:/var/lib/postgresql/data"]
+}
